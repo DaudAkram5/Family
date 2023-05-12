@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+}
+table{
+    width:70%;
+    border-collapse: collapse;  /*border-collapse: collapse;:The border-collapse property sets whether the table borders should be collapsed into a single border*/
+    margin: 20px 0 20px 200px;  
+}
+
+th{
+    background-color: #CA6F1E;
+    padding: 10px;
+    color:black;
+    text-align: left;
+    height:20px;
+    border-bottom: 1px solid black;
+}
+td{
+    
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid snow;
+}
+tr{
+    background-color: #FAE5D3;
+}
+tr:hover{
+    background-color: #2ECC71 ;
+}
+tr:nth-child(even){ background-color: #F0B27A ;}
